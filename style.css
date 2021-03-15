@@ -1,0 +1,52 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.container h3
+{
+    color:#B75D69;
+}
+label {
+    border: 2px solid #B75D69;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    color:#B75D69;
+    font-weight: bolder;
+  }
+
+  #choose-file
+  {
+      position: relative;
+      left: 0;
+      display: none;
+  }
+
+  input[type="file"] {
+    display: none;
+}
+
+#progress
+{
+    background-color: #B75D69;
+    width: 0;
+    display: none;
+}
+
+
+.img-fluid
+{
+    height: 100% i !important;
+    width: 100%;
+}
+
+.col-lg-4
+{
+    height: 250px;
+    overflow: hidden;
+}
